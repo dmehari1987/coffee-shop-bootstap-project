@@ -1,0 +1,194 @@
+/* orange #f15025 */
+
+/* black #353531 */
+
+/* navy blue #203142 */
+
+/* grey #ced0ce*/
+
+/* whitesmoke */
+
+body {
+    font-family: "Indie flower", cursive;
+}
+
+/* navbar starts here */
+.transparent {
+    background-color: rgba(0, 0, 0 ,.5);
+}
+
+.navbar-toggler-icon {
+    border: 5px solid black;
+    font-size: 30px;
+    padding-top: 30px;
+    background-color: #f15025;
+}
+
+.nav-link, .navbar-brand {
+    color: #f15025 !important;
+    font-style: italic;
+}
+
+.navbar a:hover{
+    color: whitesmoke !important;
+}
+/* navbar ends here */
+
+header {
+    height: 100vh;
+    background: url(coffee-shop.jpg) fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-center {
+    height: 100vh;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-underline {
+    width: 300px;
+    border: 3px solid #f15025;
+    margin: 0 auto 20px auto;
+}
+
+.banner-center a {
+    font-size: 30px;
+    width: 300px;
+    margin: 0 auto;
+    display: inline-block;
+    border: 3px solid whitesmoke;
+    border-radius: 40px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.banner-center a:hover,
+.banner-center a:focus {
+    color: #f15025;
+    background-color: whitesmoke;
+}
+
+/* End of Banner */
+
+/* title */
+.title {
+    margin: 20px 0;
+}
+
+.text-underline {
+    width: 150px;
+    border: 3px solid #f15025;
+    margin: 0 auto 10px auto;
+}
+/* End of title */
+
+/* skills section */
+#skills {
+    padding: 40px;
+    color: #203142;
+    margin-bottom: 10px;
+}
+/* End of skills section */
+
+/* font awesome */
+#skills .fa{
+    font-size: 100px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    /* color: red; */
+}
+/* end font awesome */
+
+/* skills anchor */
+#skills a{
+    background-color: #f15025;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+#skills a:hover{
+    background-color: #CED0CE;
+}
+/* skills anchor ends here*/
+
+/* about */
+#about {
+    background-color: #203142;
+}
+
+#about .pic{
+    background: url(skills.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    border-bottom: 600px solid transparent;
+    border-left: 100px solid #203142;
+    border-right: 100px solid #203142;
+}
+
+#about .box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: whitesmoke
+}
+/* about section ends here */
+
+/* contact section starts here */
+#contact {
+    padding: 40px;
+    background-color: whitesmoke;
+}
+
+#contact .form-control {
+    border-radius: 0px !important;
+    font-size: 20px;
+}
+
+#contact button {
+    background-color: #353531;
+    font-size: 24px;
+    color: #F15025;
+    margin-bottom: 20px;
+}
+
+#contact button:hover {
+    background-color: #ced0ce;
+}
+/* contact section ends here */
+
+/* footer section starts*/
+#footer{
+    padding: 40px;
+    color: whitesmoke;
+    background-color: #353531;
+}
+
+#footer .footer-icons {
+    font-size: 60px;
+    padding-top: 30px;
+}
+
+#footer .footer-icons a {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+#footer .footer-icons a:hover {
+    color: #f15025;
+}
+
+#footer .copyrights h3{
+    padding-top: 40px 0;
+    color: #ced0ce;
+}
+
+/* footer section ends*/
